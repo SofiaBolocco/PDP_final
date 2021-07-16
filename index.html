@@ -183,17 +183,17 @@
             referrerpolicy="no-referrer"
         ></script>
         <!--ESTE ES EL SCRIPT PARA EL GRÁFICO-->
-        <script>
-            var ctx = document.getElementById("nuestroGrafico");
+ <script>
+             var ctx = document.getElementById("nuestroGrafico");
             var nuestroGrafico = new Chart(ctx, {
                 type: "line",
                 data: {
-                    labels: ["Europa Oriental y Asia Oriental", "Asia Oriental y el Pacífico", "Oriente Medio y Norte de África", "América Latina y el Caribe", "Asia Meriodional", "África al Sur del Sahara"],
+                    labels: ["Región Metropolitana Occidente", "Region Metropolitana Oriente", "Región Antofagasta", "Región Valparaíso", "Región Atacama", "Región de Magallanes"],
                     datasets: [
                         {
-                            label: "Tasas de finalización de le escuela secundaria según región.",
-                            data: [84, 47, 42, 42, 22, 23],
-                            backgroundColor: ["#db463e", "#439962", "#ffd525", "#db463e", "#439962", "#ffd525"],
+                            label: "Casos vigentes y solucionados.",
+                            data: [51.495, 29.072, 16.119, 41.878, 10.019, 4.053],
+                            backgroundColor: ["#CE3C93", "#B2B2B2", "#D9D7D6", "#db463e", "#439962", "#ffd525"],
                             borderWidth: 1,
                         },
                     ],
